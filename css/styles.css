@@ -1035,9 +1035,14 @@ input[type='checkbox'] {
 	width: 100%;
 	height: 697px;
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:768px) {
 	.gform-1 {
-		height: 802px;
+		height: 759px;
+	}
+}
+@media only screen and (max-width:576px) {
+	.gform-1 {
+		height: 800px;
 	}
 }
 
